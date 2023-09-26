@@ -19,7 +19,8 @@ Use getValue() method to read tick count.
 ```
 encoderForwardRight.getValue()
 ```
-
+# Special Note
+If you buy AS5600 module make sure DIR pin is connected to GND or VDD. Otherwise noise can change the direction.
 
 # Example Code
 ```c++
