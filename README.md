@@ -22,7 +22,9 @@ Use getValue() method to read tick count.
 ```
 encoderForwardRight.getValue()
 ```
-# Special Note
+# Hardware Connection & Special Note
+As we will read analog value we have to connect Vcc to Vcc, GND to GND and Out Pin to Arduino Analog Pin. 
+
 If you buy AS5600 module make sure DIR pin is connected to GND or VDD. Otherwise noise can change the direction.
 
 # Example Code
