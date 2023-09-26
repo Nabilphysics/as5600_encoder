@@ -4,6 +4,9 @@ This Code Reads Analog Data From AS5600 Magnetic Encoder and Converts it to tick
 # How to USE
 ## Step 1:
 include header file 
+```
+#include "Encoder_count.h"
+```
 
 ## Step 2:
 Create a Object
