@@ -9,7 +9,7 @@ include header file
 ```
 
 ## Step 2:
-Create a Object
+Create an Object
 
 ```
 EncoderCount encoderForwardRight(A0, '+', -32768, 32767, 1023); 
